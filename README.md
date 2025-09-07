@@ -31,25 +31,25 @@ HyperWorldGen là mod world generation **siêu khổng lồ**, kết hợp:
 ```text
 /chunk radius <R> gen y=<Y>
 ```
-R = số chunk xung quanh player
-Y > 0 → gen surface (0 → Y)
-Y < 0 → gen cave (0 → Y âm)
-Gen từng chunk 1, mỗi chunk chia section 16 block
+-R = số chunk xung quanh player
+-Y > 0 → gen surface (0 → Y)
+-Y < 0 → gen cave (0 → Y âm)
+-Gen từng chunk 1, mỗi chunk chia section 16 block
 
 ### 2. Progress
 ```text
 /progress chunk
 ```
-Hiển thị số chunk đã gen / tổng chunk trong queue
-Monitor khi gen chunk radius lớn hoặc Y cao
+-Hiển thị số chunk đã gen / tổng chunk trong queue
+-Monitor khi gen chunk radius lớn hoặc Y cao
 
 ### 3. Cancel
 ```text
 /chunk cancel
 ```
-Dừng gen chunk giữa chừng
-Clear queue + thread async
-Báo số chunk đã gen
+-Dừng gen chunk giữa chừng
+-Clear queue + thread async
+-Báo số chunk đã gen
 
 ---
 

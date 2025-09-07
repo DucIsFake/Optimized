@@ -32,8 +32,11 @@ HyperWorldGen là mod world generation **siêu khổng lồ**, kết hợp:
 /chunk radius <R> gen y=<Y>
 ```
 -R = số chunk xung quanh player
+
 -Y > 0 → gen surface (0 → Y)
+
 -Y < 0 → gen cave (0 → Y âm)
+
 -Gen từng chunk 1, mỗi chunk chia section 16 block
 
 ### 2. Progress
